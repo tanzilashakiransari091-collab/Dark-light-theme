@@ -1,0 +1,101 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #28213d;
+}
+
+nav {
+    background: #542b86;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+button {
+    background: #d3a642;
+    border: none;
+    padding: 9px 12px;
+    cursor: pointer;
+}
+
+.hero {
+    background: #f0eafd;
+    text-align: center;
+    padding: 90px 15px;
+}
+
+.hero h1 {
+    color: #542b86;
+}
+
+.btn {
+    display: inline-block;
+    background: #d3a642;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+section {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f3eff9;
+    padding: 25px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.card i {
+    color: #542b86;
+    font-size: 25px;
+}
+
+footer {
+    background: #241a35;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Dark Mode */
+
+.dark-mode {
+    background: #241a35;
+    color: white;
+}
+
+.dark-mode .hero,
+.dark-mode .card {
+    background: #38264f;
+    color: white;
+}
+
+.dark-mode .hero h1,
+.dark-mode .card i {
+    color: #d3a642;
+}
+
+.dark-mode #contact {
+    background: #241a35;
+}
